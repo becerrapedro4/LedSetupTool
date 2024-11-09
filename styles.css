@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+header {
+  background-color: #00796b; /* Verde claro */
+  color: white;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+main {
+  width: 90%;
+  max-width: 1200px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+h2 {
+  color: #004d40;
+}
+
+label {
+  margin-right: 10px;
+  color: white;
+}
+
+input, select, button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  background-color: #004d40;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00796b;
+}
+
+canvas {
+  border: 1px solid blue;
+  background-color: white;
+  display: block;
+  margin-top: 20px;
+}
+
+#wireInfo {
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+}
