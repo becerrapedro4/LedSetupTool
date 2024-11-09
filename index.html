@@ -114,7 +114,7 @@
   <script>
     const panelSizes = {
       "50x50": { width: 50, height: 50, meterWidth: 0.5, meterHeight: 0.5, power: { absen: 131, naipix: 184 } },
-      "50x100": { width: 50, height: 100, meterWidth: 0.5, meterHeight: 1, power: { naipix: 368 } }
+      "50x100": { width: 50, height: 100, meterWidth: 0.5, meterHeight: 1, power: { naipix: 366 } } // Consumo ajustado a 366W
     };
 
     const consumptionLimit = 2200; // Límite de consumo total
@@ -240,7 +240,7 @@
           color: getRandomColor(),
           panels: [...selectedPanels],
         });
-        selectedPanels = [{ x, y }];  // Reiniciar con el nuevo panel
+        selectedPanels = [{ x, y }];
         totalPowerConsumption = powerToAdd;  // Reiniciar consumo con el nuevo panel
       }
 
